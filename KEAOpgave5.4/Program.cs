@@ -28,7 +28,7 @@ namespace KEAOpgave5._4
                         // c: without this break, we would run through all of the numbers in the second loop,
                         //    even though we might already know that i is not a primenumber, 
                         //    since were checking with modulus, thus making the program run much lighter.
-                        //break; 
+                        break; 
                     }
                 }
                 if (prime) // if prime == true
