@@ -9,7 +9,7 @@ namespace KEAOpgave5._4
             // variables
             bool prime; // a bool is a variable that is either true or false
             int n = 0; // We use the n to count the amount of run throughs of the loops
-            int x = 25000; //  b: 25000 & d: 100000
+            int x = 100000; //  b: 25000 & d: 100000
             Console.WriteLine($"Amount of numbers we wanna go through and check if they are prime, is {x}!");
             Console.ReadLine();
             Console.Clear();
@@ -27,8 +27,8 @@ namespace KEAOpgave5._4
 
                         // c: without this break, we would run through all of the numbers in the second loop,
                         //    even though we might already know that i is not a primenumber, 
-                        //    since were checking with modulus
-                        break; 
+                        //    since were checking with modulus, thus making the program run much lighter.
+                        //break; 
                     }
                 }
                 if (prime) // if prime == true
